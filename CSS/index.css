@@ -1,0 +1,34 @@
+#heroGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 100%;
+    grid-template-columns: 75% 25%;
+    grid-template-areas:
+    "~/Downloads/TreePic_HeroImage.jpg"
+    "CTA ~/Downloads/TreePic_HeroImage.jpg";
+  }
+
+  #heroImage {  
+    background-color: #BFB1C4;
+    height: 25px;
+    width: 100%;
+  }
+  
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 600;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
