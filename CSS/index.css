@@ -31,12 +31,11 @@
   
   img {
     max-width: 100%;
-    height: 600px;
-    padding: 25px;
+    height: auto;
   }
   .container {
     position: relative;
-    font-family: Arial;
+    font-family: Mulish;
   }
   
   .text-block {
@@ -54,11 +53,12 @@
     border: none;
     background-color: #BFB1C4;
     color: white;
-    padding: 32px 32px;
+    border-radius: 8px;
+    padding: 0px 50px;
+  }
+  footer {
     text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 18px;
-    margin: 10px 10px;
-    cursor: pointer;
+    padding: 3px;
+    background-color: #BFB1C4;
+    color: white;
   }
