@@ -50,11 +50,13 @@
   }
 
   .button {
-    border: none;
+    border: 3px solid white;
     background-color: #BFB1C4;
     color: white;
     border-radius: 8px;
     padding: 0px 50px;
+    margin-bottom: 15px;
+    
   }
   footer {
     text-align: center;
